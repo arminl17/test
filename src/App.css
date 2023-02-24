@@ -10,3 +10,13 @@
     margin: 0 10vw;
 }
 
+.clicked {
+    background-color: black;
+    color: #EEEFF4;
+}
+
+.button-link {
+    text-decoration: none;
+    color: white;
+}
+

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../Home/home.styles.scss';
 
 // Images
@@ -7,6 +8,7 @@ import heroImage2 from '../../assets/home/desktop/image-hero-seraph.jpg';
 import heroImage3 from '../../assets/home/desktop/image-hero-federal.jpg';
 import heroImage4 from '../../assets/home/desktop/image-hero-trinity.jpg';
 import iconArrow from '../../assets/icons/icon-arrow.svg';
+import welcomeImage from '../../assets/home/desktop/image-welcome.jpg';
 
 export default function Home() {
 
@@ -58,15 +60,26 @@ export default function Home() {
 
     return(
         <div>
+{/* VERTICAL TEXT */}
+            <div className='vert-container'>
+                <span className='vert-line'></span>
+                <p className='vert-text'>HOME</p>
+            </div>
+
             <div className='page-container'>
+
+{/* HERO SECTION */}
                 <div className='carousel-container'>
                     <div className='hero-data'>
                         <h1>{heroDataHeader}</h1>
                         <p>{heroDataDescription}</p>
-                        <div className='button'>
-                            <h4>See Our Portfolio</h4>
-                            <img src={iconArrow}/>
-                        </div>
+                        
+                        <Link className='button-link' to='/portfolio'>
+                            <div className='button'>
+                                <h4>See Our Portfolio</h4>
+                                <img className='arrow-icon' src={iconArrow}/>
+                            </div>
+                        </Link>
                     </div>
 
                     <img src={heroImage} className='hero-image' alt='hero image'/>
@@ -94,22 +107,43 @@ export default function Home() {
                                 value='2'
                             >03</span>
 
-                            <span 
-                                onClick={carouselHandler} 
-                                className='carousel-button' 
-                                id='trinity' 
+                            <span
+                                onClick={carouselHandler}
+                                className='carousel-button'
+                                id='trinity'
                                 value='3'
                             >04</span>
 
                         </div>
                     </div>
                 </div>
+
+                <div className='welcome-section'>
+                    <h1>Welcome</h1>
+
+                    <div class='welcome-text-container'>
+                        <h3>Welcome to Arch Studio</h3>
+                        <p>We have a unique network and skillset to help bring your projects to life. Our small team of highly skilled individuals combined with our large network put us in a strong position to deliver exceptional results.
+                            <br></br>
+                            <br></br>
+                        Over the past 10 years, we have worked on all kinds of projects. From stations to high-rise buildings, we create spaces that inspire and delight.
+                            <br></br>
+                            <br></br>
+                        We work closely with our clients so that we understand the intricacies of each project. This allows us to work in harmony the surrounding area to create truly stunning projects that will stand the test of time.</p>
+                    </div>
+
+                    <img className ='welcome-image' src={welcomeImage} alt=''/>
+
+                    <div className='small-team-container'>
+                        <h2>Small team, big ideas</h2>
+                    </div>
+                </div>
+
+                <div className='featured'>
+
+                </div>
             </div>
 
-            <div className='vert-container'>
-                <span className='vert-line'></span>
-                <p className='vert-text'>HOME</p>
-            </div>
         </div>
     )
 }

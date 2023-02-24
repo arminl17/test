@@ -6,12 +6,11 @@
         width: 50%;
         color: white;
         z-index: 10; 
-        top: 25%;
+        top: 20%;
         margin-left: 15%;
         
         h1 {
-            font-size: 96px;
-            line-height: 80px;
+            font-size: 8vw;
             letter-spacing: -2px;
             margin-bottom: 20px;
         }
@@ -82,8 +81,42 @@
     }
 }
 
-.clicked {
-    background-color: black;
-    color: #EEEFF4;
-}
+.welcome-section {
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 1000px;
 
+    h1 {
+        position: relative;
+        font-size: 17vw;
+        font-weight: 800;
+        color: #EEEFF4;
+        letter-spacing: -5px;
+        line-height: 8vw;
+        margin: 0;
+        padding:0;
+        z-index: 5;
+    }
+
+    .welcome-text-container {
+        width: 440px;
+        margin-left: 13vw;
+        
+        h3 {
+            font-size: 72px;
+        }
+
+        p {
+            margin-top: 40px;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+
+    .welcome-image {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+    }
+}
