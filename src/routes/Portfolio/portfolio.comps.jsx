@@ -1,7 +1,14 @@
 export default function Portfolio() {
   return(
     <div>
-      <h1>Portfolio</h1>
+      <div className='page-container'>
+        <h1>Portfolio</h1>
+      </div>
+
+      <div className='vert-container'>
+        <span className='vert-line'></span>
+        <p className='vert-text'>PORTFOLIO</p>
+      </div>
     </div>
   )
 }

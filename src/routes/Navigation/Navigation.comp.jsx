@@ -22,10 +22,6 @@ export default function Navigation() {
                 </div>
             </header>
             
-            <div className='vert-container'>
-                <span className='vert-line'></span>
-                <p className='vert-text'>HOME</p>
-            </div>
         </div>
         <Outlet />
         </Fragment>

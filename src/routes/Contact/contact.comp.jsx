@@ -1,8 +1,16 @@
 export default function Contact() {
     return(
       <div>
-        <h1>Contact</h1>
-      </div>
+        <div className='page-container'>
+          <h1>Contact</h1>
+        </div>
+
+        <div className='vert-container'>
+          <span className='vert-line'></span>
+          <p className='vert-text'>CONTACT</p>
+        </div>
+
+      </div>   
     )
   }
 
