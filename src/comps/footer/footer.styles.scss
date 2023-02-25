@@ -1,0 +1,38 @@
+.footer-container {
+    position: relative;
+    width: 80vw;
+    margin: 0 10vw;
+    height: 200px;
+    display: flex;
+
+    .logo-container {
+        height: 100%;
+        width: 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+    }
+
+    .footer-links-container {
+        height: 100%;
+        width: 50vw;
+        background-color: #EEEFF4;
+        display: flex;
+        align-items: center;
+
+        .nav-link {
+            color: #7d828f;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            margin-left: 5vw;
+        }
+    }
+
+    .button-link {
+        position: absolute;
+        right: 0;
+        top: 35%;
+    }
+}

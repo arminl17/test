@@ -2,6 +2,9 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../Home/home.styles.scss';
 
+// Comps
+import Footer from '../../comps/footer/footer.comp';
+
 // Images
 import heroImage1 from '../../assets/home/desktop/image-hero-paramour.jpg';
 import heroImage2 from '../../assets/home/desktop/image-hero-seraph.jpg';
@@ -117,7 +120,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-
+{/* WELCOME SECTION */}
                 <div className='welcome-section'>
                     <h1>Welcome</h1>
 
@@ -133,17 +136,71 @@ export default function Home() {
                     </div>
 
                     <img className ='welcome-image' src={welcomeImage} alt=''/>
-
-                    <div className='small-team-container'>
-                        <h2>Small team, big ideas</h2>
-                    </div>
                 </div>
+{/* SMALL TEAMS */}
+                <div className='small-team-container'>
+                <div className='filter'>
+                    <h2>Small team, <br></br>big ideas</h2>
 
+                    <Link className='button-link' to='/about'>
+                        <div className='button'>
+                            <h4>About Us</h4>
+                            <img className='arrow-icon' src={iconArrow}/>
+                        </div>
+                    </Link>
+                </div>
+                </div>
+{/* FEATURED */}
                 <div className='featured'>
+                    <div className='featured-title-flex'>
+                        <h3>Featured</h3>
+                        <Link className='button-link' to='/portfolio'>
+                            <div className='button'>
+                                <h4>See All</h4>
+                                <img className='arrow-icon' src={iconArrow}/>
+                            </div>
+                        </Link>
+                    </div>
 
+                    <div className='featured-cards'>
+                        <div className='card' id='card1'>
+                        <div className='filter'>
+                            <div className='text-container'>
+                                <h1>1</h1>
+                                <h5>Project Del Sol</h5>
+                                <Link className='button-link' to ='/portfolio'>
+                                    <h6>View All Projects</h6>
+                                </Link>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div className='card' id='card2'>
+                        <div className='filter'>
+                            <h1>2</h1>
+                            <h5>228B Tower</h5>
+                            <Link className='button-link' to ='/portfolio'>
+                                <h6>View All Projects</h6>
+                            </Link>
+                        </div>
+                        </div>
+
+                        <div className='card' id='card3'>
+                        <div className='filter'>
+                            <h1>3</h1>
+                            <h5>Le Prototype</h5>
+                            <Link className='button-link' to ='/portfolio'>
+                                <h6>View All Projects</h6>
+                            </Link>
+                        </div>
+                        </div>
+
+
+                    </div>
+                    
                 </div>
             </div>
-
+        <Footer />
         </div>
     )
 }
