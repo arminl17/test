@@ -1,0 +1,74 @@
+{
+    "Seraph Station": {
+        "key": 1,
+        "name": "Seraph Station",
+        "data": "September 2019",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "Eebox Building": {
+        "key": 2,
+        "name": "Eebox Building",
+        "data": "August 2017",
+        "image": "/assets/portfolio/desktop/image-eebox.jpg"
+    },
+    "Federal II Tower": {
+        "key": 3,
+        "name": "Federal II Tower",
+        "data": "March 2017",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "Project Del Sol": {
+        "key": 4,
+        "name": "Project Del Sol",
+        "data": "January 2016",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "Le Prototype": {
+        "key": 5,
+        "name": "Le Prototype",
+        "data": "October 2015",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "228B Tower": {
+        "key": 6,
+        "name": "228B Tower",
+        "data": "April 2015",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "Grand Edelweiss Hotel": {
+        "key": 7,
+        "name": "Grand Edelweiss Hotel",
+        "data": "December 2013",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "Netcry Tower": {
+        "key": 8,
+        "name": "Netcry Tower",
+        "data": "August 2012",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "Hypers": {
+        "key": 9,
+        "name": "Hypers",
+        "data": "January 2012",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "SXIV Tower": {
+        "key": 10,
+        "name": "SXIV Tower",
+        "data": "March 2011",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "Trinity Bank Tower": {
+        "key": 11,
+        "name": "Trinity Bank Tower",
+        "data": "September 2010",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    },
+    "Project Paramour": {
+        "key": 12,
+        "name": "Project Paramour",
+        "data": "February 2008",
+        "image": "/assets/portfolio/desktop/image-seraph.jpg"
+    }
+}

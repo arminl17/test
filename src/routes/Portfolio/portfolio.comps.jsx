@@ -1,4 +1,9 @@
+import Footer from '../../comps/footer/footer.comp';
+import Data from '../../portfolio-data.json';
+
 export default function Portfolio() {
+  console.log(Data);
+
   return(
     <div>
       <div className='page-container'>
@@ -9,6 +14,8 @@ export default function Portfolio() {
         <span className='vert-line'></span>
         <p className='vert-text'>PORTFOLIO</p>
       </div>
+
+      <Footer />
     </div>
   )
 }

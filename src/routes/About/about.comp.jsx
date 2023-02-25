@@ -1,3 +1,5 @@
+import Footer from '../../comps/footer/footer.comp';
+
 export default function About() {
   return(
     <div>
@@ -9,6 +11,8 @@ export default function About() {
         <span className='vert-line'></span>
         <p className='vert-text'>ABOUT US</p>
       </div>
+
+      <Footer />
     </div>
   )
 }

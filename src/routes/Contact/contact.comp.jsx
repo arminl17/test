@@ -1,3 +1,5 @@
+import Footer from '../../comps/footer/footer.comp';
+
 export default function Contact() {
     return(
       <div>
@@ -10,6 +12,7 @@ export default function Contact() {
           <p className='vert-text'>CONTACT</p>
         </div>
 
+      <Footer />
       </div>   
     )
   }
