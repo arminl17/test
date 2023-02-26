@@ -7,8 +7,8 @@ const PortfolioCards = (props) => {
         <div className='card-grid'>
             {data.map(item => {
                 return(
-                    <div className='card-container'>
-                        <img className src={item.image}/>
+                    <div key={item.key} className='card-container'>
+                        <img src={item.image}/>
                         <div className='text-container'>
                             <h3>{item.name}</h3>
                             <p>{item.date}</p>

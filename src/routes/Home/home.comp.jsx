@@ -124,7 +124,7 @@ export default function Home() {
                 <div className='welcome-section'>
                     <h1>Welcome</h1>
 
-                    <div class='welcome-text-container'>
+                    <div className='welcome-text-container'>
                         <h3>Welcome to Arch Studio</h3>
                         <p>We have a unique network and skillset to help bring your projects to life. Our small team of highly skilled individuals combined with our large network put us in a strong position to deliver exceptional results.
                             <br></br>

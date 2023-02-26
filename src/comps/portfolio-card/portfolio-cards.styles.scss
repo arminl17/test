@@ -1,6 +1,7 @@
 .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
 
     .card-container {
         position: relative;
@@ -11,6 +12,10 @@
 
         img {
             filter: brightness(70%);
+
+            &:hover {
+                filter: grayscale(80%);
+            }
         }
 
         .text-container {
