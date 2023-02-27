@@ -1,4 +1,4 @@
-import Logo from '../../static/logo.svg';
+import Logo from '../../assets/static/logo.svg';
 import { Outlet, Link } from 'react-router-dom';
 import { Fragment } from 'react';
 
