@@ -51,6 +51,22 @@ export default function Contact() {
       setFormError({...formError, message:''})
     }
   }
+
+  const locations = {
+    default: [40.34498, -74.66487],
+    NYoffice: [40.73526, -73.99236],
+    PHLoffice: [39.94940, -75.16569]
+  }
+
+  const [zoom, setZoom] = useState(8)
+
+  const [mapCenter, setMapCenter] = useState(locations.default);
+
+  const setLocation = (event) => {
+      const coords = event.target.id;
+      setMapCenter(locations[coords])
+      setZoom(17)
+  }
   
   return(
       <div>
@@ -73,7 +89,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-{/* Contact Section */}
+
           <div className='contact-details'>
               <span className='line'></span>
 
@@ -83,31 +99,34 @@ export default function Contact() {
                 <div className='contact-sub'>
                   <h5>Main Office</h5>
                   <p>Mail: archone@mail.com</p>
-                  <p>Address: 1892 Chenoweth Drive TN</p>
+                  <p>Address: 28 East 14th Street NYC</p>
                   <p>Phone: 123-456-3451</p>
 
                   <div>
-                    <h6>View on Map</h6>
+                    <h6 onClick={setLocation} id='NYoffice'>View on Map</h6>
                   </div>
                 </div>
 
                 <div className='contact-sub'>
                   <h5>Office II</h5>
                   <p>Mail: archtwo@mail.com</p>
-                  <p>Address: 3399 Wines Lane TX</p>
+                  <p>Address: 1426 Walnut Street PHL</p>
                   <p>Phone: 832-123-4321</p>
 
                   <div>
-                    <h6>View on Map</h6>
+                    <h6 onClick={setLocation} id='PHLoffice'>View on Map</h6>
                   </div>
                 </div>
-                
             </div>
-
-
           </div> 
 
-          <Map />
+{/* Map */}
+
+          <Map 
+            locations={locations}
+            mapCenter={mapCenter}
+            zoom={zoom}
+          />
 
 {/* Form */}
           <div className='form-section-container'>

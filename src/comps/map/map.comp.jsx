@@ -1,33 +1,58 @@
+// React
+import { useState, useEffect } from 'react';
+
 // Leaflet
 import { Icon } from 'leaflet';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import * as L from 'leaflet';
+
+// Images
+import Pin from '../../assets/icons/pin.svg';
 
 // Styles
 import '../map/map.styles.scss';
 
-const Map = () => {
+// CHILDREN OF MAP CONTAINER ARE IMMUTABLE
+// THIS FUNCTION ALLOWS US TO TAKE IN PROPS AND UPDATE THE MAP USING PROPS
+const ChangeMap = ({center, zoom}) => {
+    const map = useMap();
+    map.setView(center, zoom, {duration: 5});
+    return null;
+}
+
+const Map = (props) => {
     const customIcon = new Icon({
-        iconUrl: "/icons8-select-24.png",
-        iconSize: [33, 33]
+        iconUrl: `${Pin}`,
+        iconSize: [40, 40]
     })
 
     return(
-        <div className='leaflet-container' id='map'>
-            <MapContainer 
-            center={[39.96089, -74.87257]} 
-            zoom={15} 
+    <div className='leaflet-container' id='map'>
+        <MapContainer
+/*             center={props.mapCenter} 
+            zoom={props.zoom.initial}  */
             scrollWheelZoom={false}>
-            <Marker 
-                position={[39.96089, -74.87257]}
+
+                <ChangeMap center={props.mapCenter} zoom={props.zoom}/>
+
+            <Marker
+                position={props.locations.NYoffice}
                 icon={customIcon}
-            />
-            <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            />
-            </MapContainer>
-      </div>
+                >
+                <Popup>New York Office</Popup>
+            </Marker>
+            <Marker
+                position={props.locations.PHLoffice}
+                icon={customIcon}
+                >
+                <Popup>Philadelphia Office</Popup>
+            </Marker>
+        <TileLayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        </MapContainer>
+    </div>
     )
 }
 
