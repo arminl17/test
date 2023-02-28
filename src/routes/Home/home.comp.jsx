@@ -38,11 +38,6 @@ export default function Home() {
         }
     }
 
-    const [buttonState, setButtonState] = useState([
-        {backgroundColor: 'black',
-        color: 'white'},
-    ]);
-
     const [heroImage, setHeroImage] = useState(heroData.paramour.image);
     const [heroDataHeader, setHeroDataHeader] = useState(heroData.paramour.header);
     const [heroDataDescription, setHeroDataDescription] = useState(heroData.paramour.description);

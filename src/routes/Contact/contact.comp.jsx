@@ -5,10 +5,10 @@ import '../Contact/contact.styles.scss';
 
 // Comps
 import Footer from '../../comps/footer/footer.comp';
+import Map from '../../comps/map/map.comp';
 
 // Images
 import HeroImage from '../../assets/contact/desktop/image-hero.jpg';
-import Map from '../../assets/contact/desktop/image-map.png';
 import Arrow from '../../assets/icons/icon-arrow.svg'
 ;
 export default function Contact() {
@@ -24,11 +24,13 @@ export default function Contact() {
       const name = event.target.name.value;
       const email = event.target.email.value;
       const message = event.target.message.value;
+
+      console.log([name, email, message]);
     }
 
   const nameHandler = (e) => {
     if (e.target.value == 0) {
-      setFormError({...formError, name: 'Input field cannot be left blank.'})
+      setFormError({...formError, name: 'Name cannot be left blank.'})
     } else {
       setFormError({...formError, name: ''})
     }
@@ -46,7 +48,7 @@ export default function Contact() {
     if (e.target.value == 0) {
       setFormError({...formError, message: 'Message cannot be left blank.'})
     } else {
-      setFormError({...formError, email:''})
+      setFormError({...formError, message:''})
     }
   }
   
@@ -60,7 +62,6 @@ export default function Contact() {
 
         <div className='page-container'>
         
-
           <div className='contact-hero-container'>
             <img src={HeroImage} alt='' />
             <h1>Contact</h1>
@@ -105,9 +106,10 @@ export default function Contact() {
 
 
           </div> 
-{/* Map */}
-          <img className='map' src={Map}/>
 
+          <Map />
+
+{/* Form */}
           <div className='form-section-container'>
             <h3>Connect<br></br>with us</h3>
 
@@ -135,14 +137,18 @@ export default function Contact() {
                 ></input>
               </div>
               
-              <input 
-                onChange={messageHandler}
-                type='text' 
-                name='message' 
-                className='message' 
-                placeholder='Message'
-                required>
-              </input>
+              <div className='input-container'>
+                <label>{formError.message}</label>
+                <input 
+                  onChange={messageHandler}
+                  type='text' 
+                  name='message' 
+                  className='message' 
+                  placeholder='Message'
+                  required>
+                </input>
+              </div>
+              
 
               <button type='submit'>
                 <img src={Arrow} />
