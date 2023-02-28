@@ -120,6 +120,10 @@
     justify-content: space-between;
     margin-bottom: 125px;
 
+    .input-container {
+        position: relative;
+    }
+
     h3 {
         font-size: 4vw;
         margin-top: 10px;
@@ -140,16 +144,30 @@
 
     input {
         font-size: 20px;
+        font-weight: 800px;
         border: none;
         border-bottom: 1px solid black;
         line-height: 44px;
         margin-top: 10px;
+        padding-left: 25px;
+        width: 100%;
+    }
+
+    label {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        color: red;
+    }
+
+    input:focus {
+        outline: none;
+        border-bottom: 3px solid black;
     }
 
     ::placeholder {
         color: #c8ccd8;
         letter-spacing: -.31px;
-        padding-left: 25px;
     }
 
     button {
@@ -163,6 +181,11 @@
 
         img {
             width: 20px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: #60636d;
         }
     }
 }
