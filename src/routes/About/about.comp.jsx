@@ -1,5 +1,3 @@
-import { useState } from 'react';
- 
 // Styles
 import '../About/about.styles.scss';
 

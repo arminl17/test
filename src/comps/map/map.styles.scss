@@ -1,56 +1,14 @@
 
-.contact-details {
-    width: 80vw;
-    margin-bottom: 50px;
-
-        .line {
-        display: block;
-        background-color: gray;
-        height: 1px;
-        width: 65px;
-        margin-bottom: 50px;
-    }
-
-    .contact-flex {
-        display: flex;
-        justify-content: space-between;
-
-        h3 {
-            font-size: 4vw;
-        }
-
-        .contact-sub {
-            h5 {
-                font-size: 18px;
-                color: #60636d;
-                line-height: 35px;
-                margin-bottom: 10px;
-            }
-
-            p {
-                font-size: 18px;
-                color: #60636d;
-                line-height: 24px;
-            }
-
-            h6 {
-                font-size: 18px;
-                color: black;
-                font-weight: 800px;
-                margin-top: 30px;
-
-                &:hover {
-                    text-decoration: underline;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-
-}
 
 .leaflet-container {
     height: 40vw;
     width: 80vw;
     margin-bottom: 125px;
+}
+
+@media screen and (max-width: 700px) {
+    .leaflet-container {
+        width: 100vw;
+        height: 50vw;
+    }
 }

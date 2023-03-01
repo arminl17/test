@@ -100,10 +100,12 @@ export default function Contact() {
                 <h3>Contact<br></br>Details</h3>
 
                 <div className='contact-sub'>
-                  <h5>Main Office</h5>
-                  <p>Mail: archone@mail.com</p>
-                  <p>Address: 28 East 14th Street NYC</p>
-                  <p>Phone: 123-456-3451</p>
+                  <div>
+                    <h5>Main Office</h5>
+                    <p>Mail: archone@mail.com</p>
+                    <p>Address: 28 East 14th Street NYC</p>
+                    <p>Phone: 123-456-3451</p>
+                  </div>
 
                   <div>
                     <h6 onClick={setLocation} id='NYoffice'>View on Map</h6>
@@ -111,10 +113,12 @@ export default function Contact() {
                 </div>
 
                 <div className='contact-sub'>
-                  <h5>Office II</h5>
-                  <p>Mail: archtwo@mail.com</p>
-                  <p>Address: 1426 Walnut Street PHL</p>
-                  <p>Phone: 832-123-4321</p>
+                  <div>
+                    <h5>Office II</h5>
+                    <p>Mail: archtwo@mail.com</p>
+                    <p>Address: 1426 Walnut Street PHL</p>
+                    <p>Phone: 832-123-4321</p>
+                  </div>
 
                   <div>
                     <h6 onClick={setLocation} id='PHLoffice'>View on Map</h6>
