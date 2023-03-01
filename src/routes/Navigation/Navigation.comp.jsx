@@ -1,18 +1,44 @@
 import Logo from '../../assets/static/logo.svg';
 import { Outlet, Link } from 'react-router-dom';
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 
 import './Navigation.styles.scss';
 
 export default function Navigation() {
+    
+    const [openMobileMenu, setMobileMenu] = useState(false);
+    const handleMobileMenu = () => {
+        openMobileMenu ? setMobileMenu(false) : setMobileMenu(true)
+    }
+
+    const closeMobileMenu = () => {
+        setMobileMenu(false)
+    }
+
     return(
         <Fragment>
         <div>
             <header>
                 <div className='navbar'>
                     <Link to='/'>
-                        <img className='logo' src={Logo} alt='logo'/>
+                        <img className='logo' src={Logo} alt='logo' onClick={closeMobileMenu}/>
                     </Link>
+
+                    <div className='hamburger' onClick={handleMobileMenu}>
+                        <span className='hamburger-line'></span>
+                        <span className='hamburger-line'></span>
+                        <span className='hamburger-line'></span>
+                    </div>
+
+                    { openMobileMenu ?
+                        <div className='mobile-navlinks'>
+                            <Link className='nav-link' to='/portfolio' onClick={closeMobileMenu}>Portfolio</Link>
+                            <Link className='nav-link' to='/about' onClick={closeMobileMenu}>About Us</Link>
+                            <Link className='nav-link' to='/contact' onClick={closeMobileMenu}>Contact</Link>
+                        </div>
+                    : null
+                    }
+                    
                     
                     <div className='navlinks'>
                         <Link className='nav-link' to='/portfolio'>Portfolio</Link>

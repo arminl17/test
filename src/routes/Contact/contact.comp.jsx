@@ -66,6 +66,9 @@ export default function Contact() {
       const coords = event.target.id;
       setMapCenter(locations[coords])
       setZoom(17)
+      //
+      let Map = document.getElementById('map');
+      Map.scrollIntoView(false);
   }
   
   return(
@@ -122,7 +125,8 @@ export default function Contact() {
 
 {/* Map */}
 
-          <Map 
+          <Map
+            id='map' 
             locations={locations}
             mapCenter={mapCenter}
             zoom={zoom}

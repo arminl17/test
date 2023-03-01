@@ -274,7 +274,7 @@
             margin-left: 10vw;
             font-size: 8vw;
             color: white;
-            width: 400px;
+            width: 450px;
         }
     
         .button {
@@ -359,14 +359,17 @@
 
         #card1 {
             background-image: url('../../assets/portfolio/desktop/image-del-sol.jpg');
+            background-size: cover;
         }
 
         #card2 {
             background-image: url('../../assets/portfolio/desktop/image-228b.jpg');
+            background-size: cover;
         }
 
         #card3 {
             background-image: url('../../assets/portfolio/desktop/image-prototype.jpg');
+            background-size: cover;
         }
     }
 }
