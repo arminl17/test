@@ -40,3 +40,48 @@
         top: 35%;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .footer-container {
+        position: relative;
+        width: 100vw;
+        margin: 0;
+        height: 150px;
+        display: flex;
+    
+        .logo-container {
+            height: 100%;
+            width: 15vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+        }
+    
+        .footer-links-container {
+            height: 100%;
+            width: 70vw;
+            background-color: #EEEFF4;
+            display: flex;
+            align-items: center;
+    
+            .nav-link {
+                color: #7d828f;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 700;
+                margin-left: 5vw;
+    
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    
+        .button-link {
+            position: absolute;
+            right: 0;
+            top: 25%;
+        }
+    }
+}

@@ -29,13 +29,8 @@ const Map = (props) => {
 
     return(
     <div className='leaflet-container' id='map'>
-        <MapContainer
-/*             center={props.mapCenter} 
-            zoom={props.zoom.initial}  */
-            scrollWheelZoom={false}>
-
-                <ChangeMap center={props.mapCenter} zoom={props.zoom}/>
-
+        <MapContainer scrollWheelZoom={false}>
+            <ChangeMap center={props.mapCenter} zoom={props.zoom}/>
             <Marker
                 position={props.locations.NYoffice}
                 icon={customIcon}
