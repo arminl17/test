@@ -68,7 +68,7 @@ export default function Contact() {
       setZoom(17)
       //
       let Map = document.getElementById('map');
-      Map.scrollIntoView(false);
+      Map.scrollIntoView({block: "center"});
   }
   
   return(

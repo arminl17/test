@@ -240,7 +240,7 @@
                 width: 80vw;
         
                 .text-flex {
-                    height: 50vw;
+                    height: 60vw;
                     width: 100%;
                     position: relative;
                     left: 0;
@@ -261,12 +261,12 @@
                 }
         
                 h3 {
-                    font-size: 40px;
+                    font-size: 35px;
                     margin-right: 0px;
                 }
         
                 p {
-                    font-size: 18px;
+                    font-size: 16px;
                     line-height: 24px;
                     margin-right: 50px;
                     margin-top: 25px;
@@ -284,6 +284,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 125px;
+
     
     .text-container {
         width: 40%;
@@ -365,10 +366,10 @@
             position: relative;
             height: 100%;
             width: 80vw;
-            margin: 0 10vw;
+            margin: 150px 10vw;
             display: flex;
             justify-content: space-between;
-            margin-bottom: 125px;
+
             
             .text-container {
                 width: 90vw;
@@ -435,7 +436,7 @@
                 }
         
                 p {
-                    font-size: 18px;
+                    font-size: 16px;
                     line-height: 24px;
                 }
             }
@@ -536,16 +537,15 @@
         
             .tile-container {
                 display: flex;
-                width: 90vw;
-                transform: translateX(-5vw);
+                width:100%;
                 flex-wrap: wrap;
-                justify-content: space-evenly;
+                justify-content: space-between;
         
                 .tile {
                     margin-bottom: 50px;
         
                     img {
-                        height: 40vw;
+                        height: 35vw;
                     }
         
                     h4 {
@@ -606,28 +606,27 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            margin-bottom: 100px;
-            width: 90vw;
-            margin:  0 10vw;
+            margin: 100px 0;
             padding: 100px 0;
+            overflow: hidden;
         
             h3 {
-                font-size: 9vw;
-                margin-bottom: 50px;
+                font-size: 7vw;
+                margin-left: 10vw;
             }
         
             .tile-container {
                 display: flex;
-                width: 90vw;
-                transform: translateX(-5vw);
+                width: 80vw;
+                margin: 0 10vw;
                 flex-wrap: wrap;
-                justify-content: space-evenly;
+                justify-content: space-between;
         
                 .tile {
                     margin-bottom: 50px;
         
                     img {
-                        height: 40vw;
+                        height: 35vw;
                     }
         
                     h4 {
@@ -682,34 +681,33 @@
         }
     }
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 500px) {
         .leaders-container {
             position: relative;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            margin-bottom: 100px;
-            width: 90vw;
-            margin:  0 10vw;
-            padding: 150px 0 75px 0;
+            margin: 100px 0;
+            padding: 150px 0 0;
+            overflow: hidden;
         
             h3 {
-                font-size: 45px;
-                margin-bottom: 25px;
+                font-size: 40px;
+                margin-left: 10vw;
             }
         
             .tile-container {
                 display: flex;
-                width: 90vw;
-                transform: translateX(-5vw);
+                width: 80vw;
+                margin: 0 10vw;
                 flex-wrap: wrap;
-                justify-content: space-evenly;
+                justify-content: space-between;
         
                 .tile {
                     margin-bottom: 50px;
         
                     img {
-                        height: 40vw;
+                        height: 35vw;
                     }
         
                     h4 {
@@ -763,5 +761,3 @@
             }
         }
     }
-
-    
