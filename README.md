@@ -30,7 +30,7 @@ In this challenge, users should be able to:
 
 ### Screenshot
 
-![public/assets/Arch%20Studios%20Screenshot.jpg]!
+![Home Page](public/assets/Arch%20Studios%20Screenshot.jpg)!
 
 
 ### Links
