@@ -12,3 +12,10 @@
         height: 50vw;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .leaflet-container {
+        width: 100vw;
+        height: 70vw;
+    }
+}

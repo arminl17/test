@@ -17,12 +17,13 @@
         position: absolute;
         top: 8vw;
         right: 0;
+        z-index: 6;
     }
 
     .text-container {
         position: absolute;
         z-index: 5;
-        bottom: 0;
+        bottom: 0px;
         right: 0;
         background-color: white;
         padding-left: 45vw;
@@ -128,14 +129,17 @@
     @media screen and (max-width: 700px) {
         .hero-container {
             position: relative;
-            height: 50vw;
+            height: 400px;
             margin-bottom: 75px;
-            overflow: hidden;
+            overflow:visible;
+            background-image: url('../../assets/about/tablet/image-hero.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
         
             img {
-                width: 100vw;
-                height: auto;
-                position: absolute;
+                display: none;
+                object-fit: fill;
+                position: relative;
                 filter: brightness(70%);
                 z-index: 0;
             }
@@ -145,32 +149,33 @@
                 color: #EEEFF4;
                 z-index: 10;
                 position: absolute;
-                top: 9vw;
-                right: 10vw;
+                top: 160px;
+                left: 50px;
             }
         
             .text-container {
                 position: absolute;
                 z-index: 5;
                 bottom: 0;
+                left: 0;
                 right: 0;
                 background-color: transparent;
-                padding-left: 45vw;
+                padding-left: 0vw;
                 height: 30vw;
+                width: 80vw;
         
                 .text-flex {
-                    height: 34vw;
-                    width: 446px;
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
+                    height: 40vw;
+                    width: 100%;
+                    position: relative;
+                    left: 0;
                     display: flex;
                     flex-direction: column;
                     align-items: left;
                     justify-content: space-evenly;
                     background-color: white;
                     padding-left: 50px;
-                    padding-top: 50px;
+                    padding-top: 75px;
                 }
         
                 .line {
@@ -181,18 +186,96 @@
                 }
         
                 h3 {
-                    font-size: 4vw;
-                    margin-right: 50px;
+                    font-size: 40px;
+                    margin-right: 0px;
                 }
         
                 p {
-                    font-size: calc(8px + 1vw);
+                    font-size: 18px;
                     line-height: 24px;
                     margin-right: 50px;
+                    margin-top: 25px;
                 }
             }
         }
     }
+
+    @media screen and (max-width: 500px) {
+        .hero-container {
+            position: relative;
+            height: 400px;
+            margin-bottom: 75px;
+            overflow:visible;
+            background-image: url('../../assets/about/tablet/image-hero.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        
+            img {
+                display: none;
+                object-fit: fill;
+                position: relative;
+                filter: brightness(70%);
+                z-index: 0;
+            }
+        
+            h1 {
+                display: none;
+                font-size: calc(50px + 10vw);
+                color: #EEEFF4;
+                z-index: 10;
+                position: absolute;
+                top: 160px;
+                left: 50px;
+            }
+        
+            .text-container {
+                position: absolute;
+                z-index: 5;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: transparent;
+                padding-left: 0vw;
+                height: 30vw;
+                width: 80vw;
+        
+                .text-flex {
+                    height: 50vw;
+                    width: 100%;
+                    position: relative;
+                    left: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: left;
+                    justify-content: space-evenly;
+                    background-color: white;
+                    padding-left: 50px;
+                    padding-top: 125px;
+                }
+        
+                .line {
+                    display: none;
+                    background-color: gray;
+                    height: 1px;
+                    width: 65px;
+                }
+        
+                h3 {
+                    font-size: 40px;
+                    margin-right: 0px;
+                }
+        
+                p {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-right: 50px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+
+
 
 .heritage-container {
     position: relative;
@@ -305,6 +388,49 @@
         
                 h3 {
                     font-size: 7vw;
+                    margin-bottom: 20px;
+                }
+        
+                p {
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+        
+            img {
+                height: 40vw;
+                display: none;
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .heritage-container {
+            position: relative;
+            height: 100%;
+            width: 80vw;
+            margin: 250px 10vw;
+            display: flex;
+            justify-content: space-between;
+            
+            .text-container {
+                width: 96vw;
+                height: 40vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 0 2vw;
+        
+                .line {
+                    display: block;
+                    background-color: gray;
+                    height: 1px;
+                    width: 65px;
+                    margin-bottom: 5px;
+                }
+        
+                h3 {
+                    font-size: 55px;
                     margin-bottom: 20px;
                 }
         
@@ -488,6 +614,88 @@
             h3 {
                 font-size: 9vw;
                 margin-bottom: 50px;
+            }
+        
+            .tile-container {
+                display: flex;
+                width: 90vw;
+                transform: translateX(-5vw);
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+        
+                .tile {
+                    margin-bottom: 50px;
+        
+                    img {
+                        height: 40vw;
+                    }
+        
+                    h4 {
+                        font-size: calc(16px + 1vw);
+                        margin-top: 10px;
+                    }
+        
+                    p {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        
+            .image-container {
+                position: relative;
+                
+                .icon-container {
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                }
+        
+                &:hover {
+                    .avatar {
+                        filter: brightness(50%);
+                    }
+        
+                    .icon-container {
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+        
+                        .linkedin,
+                        .twitter {
+                            width: 40px;
+                            height: auto;
+                            margin: 0 20px;
+        
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 750px) {
+        .leaders-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 100px;
+            width: 90vw;
+            margin:  0 10vw;
+            padding: 150px 0 75px 0;
+        
+            h3 {
+                font-size: 45px;
+                margin-bottom: 25px;
             }
         
             .tile-container {

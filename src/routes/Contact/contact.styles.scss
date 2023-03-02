@@ -129,14 +129,17 @@
     @media screen and (max-width: 700px) {
         .contact-hero-container {
             position: relative;
-            height: 50vw;
+            height: 400px;
             margin-bottom: 75px;
-            overflow: hidden;
+            overflow:visible;
+            background-image: url('../../assets/about/tablet/image-hero.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
         
             img {
-                width: 100vw;
-                height: auto;
-                position: absolute;
+                display: none;
+                object-fit: fill;
+                position: relative;
                 filter: brightness(70%);
                 z-index: 0;
             }
@@ -146,32 +149,33 @@
                 color: #EEEFF4;
                 z-index: 10;
                 position: absolute;
-                top: 9vw;
-                right: 10vw;
+                top: 160px;
+                left: 50px;
             }
         
             .text-container {
                 position: absolute;
                 z-index: 5;
                 bottom: 0;
+                left: 0;
                 right: 0;
                 background-color: transparent;
-                padding-left: 45vw;
+                padding-left: 0vw;
                 height: 30vw;
+                width: 80vw;
         
                 .text-flex {
-                    height: 34vw;
-                    width: 446px;
-                    position: absolute;
-                    bottom: 0;
-                    right: 0;
+                    height: 40vw;
+                    width: 100%;
+                    position: relative;
+                    left: 0;
                     display: flex;
                     flex-direction: column;
                     align-items: left;
                     justify-content: space-evenly;
                     background-color: white;
                     padding-left: 50px;
-                    padding-top: 50px;
+                    padding-top: 75px;
                 }
         
                 .line {
@@ -182,14 +186,90 @@
                 }
         
                 h3 {
-                    font-size: 4vw;
-                    margin-right: 50px;
+                    font-size: 40px;
+                    margin-right: 0px;
                 }
         
                 p {
-                    font-size: calc(8px + 1vw);
+                    font-size: 18px;
                     line-height: 24px;
                     margin-right: 50px;
+                    margin-top: 25px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .contact-hero-container {
+            position: relative;
+            height: 400px;
+            margin-bottom: 75px;
+            overflow:visible;
+            background-image: url('../../assets/contact/tablet/image-hero.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        
+            img {
+                display: none;
+                object-fit: fill;
+                position: relative;
+                filter: brightness(70%);
+                z-index: 0;
+            }
+        
+            h1 {
+                display: none;
+                font-size: calc(50px + 10vw);
+                color: #EEEFF4;
+                z-index: 10;
+                position: absolute;
+                top: 160px;
+                left: 50px;
+            }
+        
+            .text-container {
+                position: absolute;
+                z-index: 5;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: transparent;
+                padding-left: 0vw;
+                height: 30vw;
+                width: 80vw;
+        
+                .text-flex {
+                    height: 50vw;
+                    width: 100%;
+                    position: relative;
+                    left: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: left;
+                    justify-content: space-evenly;
+                    background-color: white;
+                    padding-left: 50px;
+                    padding-top: 125px;
+                }
+        
+                .line {
+                    display: none;
+                    background-color: gray;
+                    height: 1px;
+                    width: 65px;
+                }
+        
+                h3 {
+                    font-size: 40px;
+                    margin-right: 0px;
+                }
+        
+                p {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-right: 50px;
+                    margin-top: 25px;
                 }
             }
         }
@@ -309,6 +389,7 @@
             width: 80vw;
             margin-bottom: 50px;
             margin-left: 10vw;
+            padding-top: 100px;
         
                 .line {
                 display: block;
@@ -324,7 +405,68 @@
                 justify-content: space-between;
         
                 h3 {
-                    font-size: 7vw;
+                    font-size: 40px;
+                    margin-bottom: 40px;
+                }
+        
+                .contact-sub {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 40px;
+                    width: 60vw;
+
+                    h5 {
+                        font-size: 18px;
+                        color: #60636d;
+                        line-height: 35px;
+                        margin-bottom: 0px;
+                    }
+        
+                    p {
+                        font-size: 18px;
+                        color: #60636d;
+                        line-height: 24px;
+                    }
+        
+                    h6 {
+                        font-size: 18px;
+                        color: black;
+                        font-weight: 800px;
+                        margin-top: 10px;
+        
+                        &:hover {
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .contact-details {
+            width: 80vw;
+            margin-bottom: 50px;
+            margin-left: 10vw;
+            padding-top: 150px;
+        
+                .line {
+                display: block;
+                background-color: gray;
+                height: 1px;
+                width: 65px;
+                margin-bottom: 50px;
+            }
+        
+            .contact-flex {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+        
+                h3 {
+                    font-size: 40px;
                     margin-bottom: 40px;
                 }
         
