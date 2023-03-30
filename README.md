@@ -1,4 +1,4 @@
-Arch Studio multi-page website
+# Arch Studio multi-page website
 
 ## Table of contents
 
