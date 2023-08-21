@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.085089d8.css",
+    "main.js": "/test/static/js/main.c46a66ef.js",
+    "static/media/hero-welcome.webp": "/test/static/media/hero-welcome.b8235636ce6633fb1572.webp",
+    "static/media/img2.webp": "/test/static/media/img2.fcf14a59e4b68d3c4d16.webp",
+    "static/media/slider2.webp": "/test/static/media/slider2.18c586d9e915311100fd.webp",
+    "static/media/slider3.webp": "/test/static/media/slider3.053248d2a4e2aaa2a479.webp",
+    "static/media/img1.webp": "/test/static/media/img1.a0b1cbe36b5703838cad.webp",
+    "static/media/slider1.webp": "/test/static/media/slider1.5ca555f3e283d74963cb.webp",
+    "static/media/hero.webp": "/test/static/media/hero.94d693b820c8efd822e6.webp",
+    "static/media/img3.webp": "/test/static/media/img3.94d693b820c8efd822e6.webp",
+    "static/media/image-hero.jpg": "/test/static/media/image-hero.d8c74b472b2082b83230.jpg",
+    "static/media/about2.webp": "/test/static/media/about2.cc99b5a25b3147a56352.webp",
+    "static/media/aboutFounder.webp": "/test/static/media/aboutFounder.eaeae9fb7fd906291bb1.webp",
+    "static/media/image-del-sol.jpg": "/test/static/media/image-del-sol.76ed3c8cbbe02aa88517.jpg",
+    "static/media/slider4.webp": "/test/static/media/slider4.df5dfb93eaeb38d73683.webp",
+    "static/media/image-welcome.jpg": "/test/static/media/image-welcome.d48da5ee73522dc5750c.jpg",
+    "static/media/avatar-thompson.jpg": "/test/static/media/avatar-thompson.8a2d6fe874ae4458fb91.jpg",
+    "static/media/avatar-jackson.jpg": "/test/static/media/avatar-jackson.8d7b6c2e34b7e4f5651c.jpg",
+    "static/media/avatar-maria.jpg": "/test/static/media/avatar-maria.4676df09ebc7d5d572ad.jpg",
+    "static/media/image-prototype.jpg": "/test/static/media/image-prototype.3aa636fb8cd53744f08f.jpg",
+    "static/media/image-228b.jpg": "/test/static/media/image-228b.e7b00edbda6e70e2c754.jpg",
+    "static/media/logonew.png": "/test/static/media/logonew.66b5babd4a8124bc77b8.png",
+    "index.html": "/test/index.html",
+    "static/media/pin.svg": "/test/static/media/pin.db3b325f02ecf2c9b1715f1dc20e6680.svg",
+    "static/media/icon-twitter.svg": "/test/static/media/icon-twitter.2bc338b00e56087d4fb7aaaaf1f1f5d2.svg",
+    "static/media/icon-linkedin.svg": "/test/static/media/icon-linkedin.5ae8cac62d18e69ef6261e1ed4135efb.svg",
+    "static/media/icon-arrow.svg": "/test/static/media/icon-arrow.f737f2c3914510af48698a8d134f8d7b.svg",
+    "main.085089d8.css.map": "/test/static/css/main.085089d8.css.map",
+    "main.c46a66ef.js.map": "/test/static/js/main.c46a66ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.085089d8.css",
+    "static/js/main.c46a66ef.js"
+  ]
+}
