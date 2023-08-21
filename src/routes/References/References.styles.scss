@@ -1,3 +1,24 @@
+.footer-container {
+  margin-top: 325px;
+}
+
+.references-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .references-item {
+    .references-title {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+  }
+}
 .hero-container {
   position: relative;
   height: 46vw;
@@ -127,6 +148,23 @@
 }
 
 @media screen and (max-width: 700px) {
+  .references-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    .references-item {
+      .references-title {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 12px;
+      }
+    }
+  }
   .hero-container {
     position: relative;
     height: 400px;
@@ -201,6 +239,23 @@
 }
 
 @media screen and (max-width: 500px) {
+  .references-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    .references-item {
+      .references-title {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 12px;
+      }
+    }
+  }
   .hero-container {
     position: relative;
     height: 400px;
@@ -280,8 +335,8 @@
   height: 100%;
   width: 80vw;
   display: flex;
+  margin: 150px 10vw;
   justify-content: space-between;
-  margin-bottom: 125px;
 
   .text-container {
     width: 40%;
@@ -316,13 +371,35 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .mobileview {
+    margin-bottom: -400px !important;
+  }
+
+  .references-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    .references-item {
+      .references-title {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 12px;
+      }
+    }
+  }
+
   .heritage-container {
     position: relative;
     height: 100%;
     width: 80vw;
     display: flex;
+    margin: 150px 10vw;
     justify-content: space-between;
-    margin-bottom: 125px;
 
     .text-container {
       width: 90vw;
@@ -359,11 +436,32 @@
 }
 
 @media screen and (max-width: 700px) {
+  .references-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    .references-item {
+      .references-title {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 12px;
+      }
+    }
+  }
+  .mobileview {
+    margin-bottom: -400px !important;
+  }
   .heritage-container {
     position: relative;
     height: 100%;
     width: 80vw;
     margin: 150px 10vw;
+
     display: flex;
     justify-content: space-between;
 
@@ -402,11 +500,31 @@
 }
 
 @media screen and (max-width: 500px) {
+  .references-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    .references-item {
+      .references-title {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 12px;
+      }
+    }
+  }
+  .mobileview {
+    margin-bottom: -400px !important;
+  }
   .heritage-container {
     position: relative;
     height: 100%;
     width: 80vw;
-    margin: 250px 10vw;
+    margin: 150px 10vw;
     display: flex;
     justify-content: space-between;
 
@@ -519,6 +637,23 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .references-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    .references-item {
+      .references-title {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 12px;
+      }
+    }
+  }
   .leaders-container {
     position: relative;
     display: flex;
@@ -597,6 +732,23 @@
 }
 
 @media screen and (max-width: 700px) {
+  .references-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    .references-item {
+      .references-title {
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      li {
+        margin-bottom: 12px;
+      }
+    }
+  }
   .leaders-container {
     position: relative;
     display: flex;

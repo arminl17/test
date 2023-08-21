@@ -1,169 +1,168 @@
-
 header {
-    height: 125px;
-    display: flex;
-    width: 80vw;
-    margin-left: 10vw;
-    z-index: 10;
+  height: 125px;
+  display: flex;
+  width: 80vw;
+  margin-left: 10vw;
+  z-index: 10;
 }
 
 .navbar {
+  display: flex;
+  align-items: center;
+
+  .logo {
+    width: 96px;
+    height: auto;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .mobile-navlinks {
+    display: none;
+  }
+
+  .navlinks {
     display: flex;
-    align-items: center;
+    // width: 408px;
+    text-decoration: none;
 
-    .logo {
-        width: 96px;
-        height: auto;
+    .nav-link {
+      font-family: "League Spartan", sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      margin-left: 65px;
+      text-decoration: none;
+      color: #7d828f;
+
+      &:visited {
+        color: #7d828f;
+      }
+
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
     }
-
-    .hamburger {
-        display: none;
-    }
-
-    .mobile-navlinks {
-        display: none;
-    }
-
-    .navlinks {
-        display: flex;
-        width: 408px;
-        text-decoration: none;
-
-        .nav-link {
-            font-family: 'League Spartan', sans-serif;
-            font-size: 18px;
-            font-weight: 800;
-            margin-left: 65px;
-            text-decoration: none;
-            color: #7d828f;
-
-            &:visited {
-                color: #7d828f;
-            }
-
-            &:hover {
-                color: black;
-                cursor: pointer;
-            }
-        }
-    }
+  }
 }
 
 @media screen and (max-width: 800px) {
-    header {
-        height: 100px;
-        display: flex;
-        width: 80vw;
-        margin-left: 10vw;
+  header {
+    height: 100px;
+    display: flex;
+    width: 80vw;
+    margin-left: 10vw;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    justify-content: space-between;
+    z-index: 10;
+
+    .logo {
+      width: 96px;
+      height: auto;
     }
-    
-    .navbar {
-        display: flex;
-        align-items: center;
-        width: 80vw;
-        justify-content: space-between;
-        z-index: 10;
-    
-        .logo {
-            width: 96px;
-            height: auto;
-        }
 
-        .hamburger {
-            display: flex;
-            height: 40px;
-            flex-direction: column;
-            justify-content: space-evenly;
+    .hamburger {
+      display: flex;
+      height: 40px;
+      flex-direction: column;
+      justify-content: space-evenly;
 
-            .hamburger-line {
-                display: block;
-                height: 4px;
-                width: 40px;
-                background-color: black;
-            }
-        }
-
-        .mobile-navlinks {
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            background-color: #EEEFF4;
-            right: 0px;
-            top: 100px;
-            width: 300px;
-            z-index: 10;
-            padding: 20px 0px;
-
-            .nav-link {
-                font-family: 'League Spartan', sans-serif;
-                font-size: 28px;
-                font-weight: 800;
-                margin: 15px 40px;
-                text-decoration: none;
-                color: black;
-    
-                &:visited {
-                    color: black;
-                }
-    
-                &:hover {
-                    color: black;
-                    cursor: pointer;
-                }
-            }
-        }
-    
-        .navlinks {
-            display: none;
-            width: 408px;
-            text-decoration: none;
-    
-            .nav-link {
-                font-family: 'League Spartan', sans-serif;
-                font-size: 18px;
-                font-weight: 800;
-                margin-left: 65px;
-                text-decoration: none;
-    
-                &:visited {
-                    color: #7d828f;
-                }
-    
-                &:hover {
-                    color: black;
-                    cursor: pointer;
-                }
-            }
-        }
+      .hamburger-line {
+        display: block;
+        height: 4px;
+        width: 40px;
+        background-color: black;
+      }
     }
+
+    .mobile-navlinks {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      background-color: #eeeff4;
+      right: 0px;
+      top: 100px;
+      width: 300px;
+      z-index: 10;
+      padding: 20px 0px;
+
+      .nav-link {
+        font-family: "League Spartan", sans-serif;
+        font-size: 28px;
+        font-weight: 800;
+        margin: 15px 40px;
+        text-decoration: none;
+        color: black;
+
+        &:visited {
+          color: black;
+        }
+
+        &:hover {
+          color: black;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .navlinks {
+      display: none;
+      width: 408px;
+      text-decoration: none;
+
+      .nav-link {
+        font-family: "League Spartan", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        margin-left: 65px;
+        text-decoration: none;
+
+        &:visited {
+          color: #7d828f;
+        }
+
+        &:hover {
+          color: black;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }
 
 .vert-container {
-    position: absolute;
-    margin-left: 3vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 0;
+  position: absolute;
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
 
-    .vert-line {
-        display: block;
-        background-color: #C8CCD8;
-        width: 1px;
-        height: 104px;
-    }
+  .vert-line {
+    display: block;
+    background-color: #c8ccd8;
+    width: 1px;
+    height: 104px;
+  }
 
-    .vert-text {
-        writing-mode: vertical-rl;
-        font-weight: 700;
-        letter-spacing: 18px;
-        color: #C8CCD8;
-        margin-top: 30px;
-    }
+  .vert-text {
+    writing-mode: vertical-rl;
+    font-weight: 700;
+    letter-spacing: 18px;
+    color: #c8ccd8;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    .vert-container {
-        display: none;
-    }
+  .vert-container {
+    display: none;
+  }
 }
