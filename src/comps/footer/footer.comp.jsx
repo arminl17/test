@@ -14,23 +14,23 @@ const Footer = () => {
       </div>
 
       <div className='footer-links-container'>
-        <Link className='nav-link' to='/static'>
-          Architecture
+        <Link className='nav-link' to='/architecture'>
+          Architektur
         </Link>
         <Link className='nav-link' to='/static'>
-          Static
+          Statik
         </Link>
         <Link className='nav-link' to='/about'>
-          About Us
+          Über uns
         </Link>
         <Link className='nav-link' to='/contact'>
-          Contact
+          Kontakt
         </Link>
       </div>
 
       <Link className='button-link' to='/contact'>
         <div className='button'>
-          <h4>Contact us</h4>
+          <h4> Über uns</h4>
           <img className='arrow-icon' src={iconArrow} />
         </div>
       </Link>

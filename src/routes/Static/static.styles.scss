@@ -1,6 +1,7 @@
 .footer-container {
   margin-top: 250px;
 }
+
 .hero-container {
   position: relative;
   height: 46vw;
@@ -278,6 +279,10 @@
   }
 }
 
+.heritage-container.desktop {
+  margin-top: 350px;
+}
+
 .heritage-container {
   position: relative;
   height: 100%;
@@ -319,6 +324,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .heritage-container.desktop {
+    margin-top: 0px;
+  }
   .heritage-container {
     position: relative;
     height: 100%;
@@ -362,6 +370,9 @@
 }
 
 @media screen and (max-width: 700px) {
+  .heritage-container.desktop {
+    margin-top: 0px;
+  }
   .heritage-container {
     position: relative;
     height: 100%;
@@ -406,6 +417,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .heritage-container.desktop {
+    margin-top: 0px;
+  }
   .heritage-container {
     position: relative;
     height: 100%;

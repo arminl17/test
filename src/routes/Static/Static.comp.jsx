@@ -19,22 +19,22 @@ export default function Static() {
       {/*Vertical Text */}
       <div className='vert-container'>
         <span className='vert-line'></span>
-        <p className='vert-text'>STATIC</p>
+        <p className='vert-text'>STATIK</p>
       </div>
 
       {/* MAIN PAGE */}
       <div className='page-container'>
         <div className='hero-container'>
           <img src={HeroImage} alt='' />
-          <h1>About</h1>
+          <h1>Um</h1>
           <div className='text-container'>
             <div className='text-flex'>
               <span className='line'></span>
-              <h3>Static</h3>
+              <h3>Statik</h3>
               <p>
-                From a family home to an office building to an urban housing
-                estate TRAGWAND offers innovative solutions for structural
-                concepts in construction.
+                Vom Einfamilienhaus über das Bürogebäude bis hin zur urbanen
+                Wohnsiedlung – Tragwand bietet innovative Lösungen für
+                Tragwerkskonzepte im Bau an.
               </p>
             </div>
           </div>
@@ -43,29 +43,26 @@ export default function Static() {
         <div className='heritage-container'>
           <div className='text-container'>
             <span className='line'></span>
-            <h3>
-              Inventory and <br></br>damage reports
-            </h3>
+            <h3>Bestands- und Schadensgutachten</h3>
             <p>
-              Engineering findings (level 1 to level 3 according to OIB-RL 1) If
-              required, the masonry and floor reports required for the
-              construction project can be taken over
+              Ingenieurbefunde (Stufe 1 bis Stufe 3 gem. OIB-RL 1) Sofern
+              gewünscht, können die für das Bauvorhaben erforderlichen
+              Mauerwerks- und Bodengutachten mitübernommen werden
               <br></br>
               <br></br>
-              Inventory statistics – In the absence of planning documentation,we
-              take care of the verification of the existing object's
-              sustainability
+              Bestandsstatik - Bei fehlender Plandokumentation kümmern wir uns
+              um den statischen Nachweis der Tragfähigkeit bestehender Objekte
               <br></br>
               <br></br>
-              Expert reports for component or building damage - We obtain
-              necessary expert reports for age-related damage or planning or
-              execution defects
+              Gutachten bei Bauteil - oder Gebäudeschäden - Wir holen notwendige
+              Gutachten bei altersbedingten Schäden bzw. Planungs- oder
+              Ausführungsmängeln ein
               <br />
               <br />
-              Building's condition report according to WEG §37 (4) – for real
-              estates that are older than 20 years , in case of a sale there has
-              to be a condition report about the structural absence of
-              deficiencies submitted
+              Gebäudezustandsgutachten nach WEG §37 (4) - Für Immobilien, die
+              älter als 20 Jahre sind, muss im Verkaufsfall ein Gutachten über
+              die bautechnische Mängelfreiheit der allgemeinen Teile des
+              Gebäudes vorgelegt werden.
             </p>
           </div>
 
@@ -77,55 +74,50 @@ export default function Static() {
           <div className='text-container'>
             <span className='line'></span>
             <h3>
-              Statics – Old buildings <br></br> from old buildings to
-              Wilhelminian style palace
+              Statik – Altbauten: Vom alten Gebäude bis zum Gründerzeitpalais
             </h3>
             <p>
-              Feasibility studies
+              Machbarkeitsstudien
               <br></br>
               <br></br>
-              Engineering findings (in accordance with OIB-RL1) and associated
-              masonry and floor reports (in cooperation with material testing
-              laboratories)
+              Ingenieurbefunde (gem. OIB-RL1) und dazugehörige Mauerwerks- und
+              Bodengutachten (in Zusammenarbeit mit Materialprüfungslabors) ​
               <br></br>
               <br></br>
-              Risk analysis/earthquake evidence (according to ÖNorm B 1998-3,
-              calculation according to the capacity method or push-over method /
-              3D calculation with FEM program 3muri / ingware)
+              Risikoanalyse/Erdbebennachweise (gem. ÖNorm B 1998-3, Berechnung
+              nach Kapazitätsmethode oder Push-Over-Verfahren/ 3D-Berechnung mit
+              FEM-Programm 3muri/ingware) ​
               <br />
               <br />
-              Inventory statistics
+              Bestandsstatiken
               <br />
               <br />
-              Building/construction book according to §128a and §129 BO
+              Bauwerksbuch gem. §128a und §129 BO
             </p>
           </div>
         </div>
 
-        <div className='heritage-container'>
+        <div className='heritage-container desktop'>
           <div className='text-container'>
             <span className='line'></span>
             <h3>
-              Static – new buldings; <br></br> single family home to residental
-              complex
+              Statik – Neubauten: Vom Einfamilienhaus bis zur Wohnhausanlage
             </h3>
             <p>
-              Constructive preliminary designs – our engineers create a design
-              concept in coorporation with the client
+              Konstruktive Vorentwürfe – Unsere Ingenieure entwerfen das
+              Tragwerkskonzept in Zusammenarbeit mit dem Bauherren
               <br></br>
               <br></br>
-              Static preliminary measurements and calculations – are carried out
-              as a part of the bulding permit procedure according to OIB-RL 1 ​
+              Statische Vorbemessungen und Berechnungen – erfolgen im Rahmen des
+              Baubewilligungsverfahrens gem. OIB-RL 1<br></br>
               <br></br>
-              <br></br>
-              Expert opinion on minor construction projects acc. §63 (1) lit h
-              BO
+              Gutachten für geringfügige Bauvorhaben gem. §63 (1) lit h BO
               <br />
               <br />
-              Construction and detailed planning of steel and wood structures ​
+              Konstruktions- und Detailplanungen für Stahl- und
+              Holzkonstruktionen <br />
               <br />
-              <br />
-              Formwork and reinforcement planning for solid structures
+              Schalungs- und Bewehrungsplanungen für Massivbauten
             </p>
           </div>
 

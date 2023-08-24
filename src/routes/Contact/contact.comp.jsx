@@ -73,20 +73,21 @@ export default function Contact() {
       {/* Vertical Text */}
       <div className='vert-container'>
         <span className='vert-line'></span>
-        <p className='vert-text'>CONTACT</p>
+        <p className='vert-text'>KONTAKT</p>
       </div>
       <div className='page-container'>
         <div className='contact-hero-container'>
           <img src={HeroImage} alt='' />
-          <h1>Contact</h1>
+          <h1>Kontakt</h1>
           <div className='text-container'>
             <div className='text-flex'>
               <span className='line'></span>
-              <h3>Tell us about your project</h3>
+              <h3>Erzählen Sie uns von Ihrem Projekt</h3>
               <p>
-                We’d love to hear more about your project. Please, leave a
-                message below or give us a call. We have office in Vienna If you
-                find yourself nearby, come say hello!
+                Wir würden gerne mehr über Ihr Projekt erfahren. Bitte
+                hinterlassen Sie unten eine Nachricht oder rufen Sie uns an. Wir
+                haben ein Büro in Wien. Wenn Sie in der Nähe sind, sagen Sie
+                Hallo!
               </p>
             </div>
           </div>
@@ -96,21 +97,19 @@ export default function Contact() {
           <span className='line'></span>
 
           <div className='contact-flex'>
-            <h3>
-              Contact<br></br>Details
-            </h3>
+            <h3>Kontaktdetails</h3>
 
             <div className='contact-sub'>
               <div>
-                <h5>Office</h5>
+                <h5>Büro</h5>
                 <p>Mail: office@tragwand.at</p>
-                <p>Address: 1010 Vienna, Mölker Bastei 10/5</p>
-                <p>Phone: +43 660 4181 693</p>
+                <p>Adresse: 1010 Vienna, Mölker Bastei 10/5</p>
+                <p>Telefon: +43 660 4181 693</p>
               </div>
 
               <div>
                 <h6 onClick={setLocation} id='Vienna'>
-                  View on Map
+                  Auf der Karte anzeigen
                 </h6>
               </div>
             </div>

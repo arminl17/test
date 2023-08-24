@@ -1,46 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'League Spartan';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: "sans-serif";
 }
 
 .page-container {
-    width: 80vw;
-    margin: 0 10vw;
+  width: 80vw;
+  margin: 0 10vw;
 }
 
 @media screen and (max-width: 700px) {
-    .page-container {
-        width: 100vw;
-        margin: 0;
-    }
+  .page-container {
+    width: 100vw;
+    margin: 0;
+  }
 }
 
 .clicked {
-    background-color: black;
-    color: #EEEFF4;
+  background-color: black;
+  color: #eeeff4;
 }
 
 .button-link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .button {
-    display: block;
-    height: 70px;
-    width: 250px;
-    background-color: #1B1D23;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: block;
+  height: 70px;
+  width: 250px;
+  background-color: #1b1d23;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
-    &:hover {
-        cursor: pointer;
-        background-color: #60636D;
-    }
+  &:hover {
+    cursor: pointer;
+    background-color: #60636d;
+  }
 }
-
-
-

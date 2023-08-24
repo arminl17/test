@@ -19,25 +19,25 @@ import welcomeImage from "../../assets/home/desktop/image-welcome.jpg";
 export default function Home() {
   const heroData = {
     paramour: {
-      header: "We do architecture and static for you!",
+      header: "Wir erledigen Architektur und Statik für Sie!",
       description:
-        "The creation of attractive and urban living or working space, combined with the competent planning, management and monitoring of the project.",
+        "Die Schaffung von attraktivem und urbanem Lebens- bzw. Arbeitsraum, kombiniert mit kompetenter Planung, Steuerung und Überwachung des Projekts. Kleinere Sanierungs- und Bauprojekte übernehmen wir gerne auch als Generalplaner. In diesem Fall liegt die Projektabwicklung und -planung ganzheitlich bei uns. ",
       image: heroImage1,
     },
     seraph: {
-      header: "We do architecture and static for you!",
+      header: "Wir erledigen Architektur und Statik für Sie!",
       description:
-        "From a family home to an office building to an urban housing estate TRAGWAND offers innovative solutions for structural concepts in construction.",
+        "Vom Einfamilienhaus über das Bürogebäude bis hin zur urbanen Wohnsiedlung – Tragwand bietet innovative Lösungen für Tragwerkskonzepte im Bau an. Ob Beton, Ziegel, Holz oder auch Stahl – wird sind in jedem Fall der richtige Ansprechpartner für die Durchführung der Statik Arbeiten",
       image: heroImage2,
     },
     federal: {
-      header: "We do architecture and static for you!",
+      header: "Wir erledigen Architektur und Statik für Sie!",
       description:
-        "Whether new construction, outbuilding or reconstruction – we make your project a better place. As an experienced Viennese team in the field of statics, architecture and renovation we not only bring the necessary know-how, but at the same time efficient and sustainable solutions.",
+        "Für das Rund-Um-Wohlgefühl im Wohn-/Arbeitsraum: Das Gefühl für Ästhetik, die Fingerfertigkeit unserer Profis, der perfekte Workflow - so gestalten wir Wohnräume. Wir sind erster Ansprechpartner für Sanierung in Perfektion sowie außergewöhnliche und hoch spezialisierte Innenausbau- lösungen im Großraum Wien und Umgebung. Höchste Qualität, persönliche Betreuung und maximale Flexibilität sind uns sehr wichtig, daher ist unser Unternehmen so strukturiert, dass alle Abläufe schnell und unkompliziert durchgeführt werden können.",
       image: heroImage3,
     },
     trinity: {
-      header: "Check more of our work",
+      header: "Sehen Sie sich mehr von unserer Arbeit an",
       description: "",
       image: heroImage4,
     },
@@ -70,7 +70,7 @@ export default function Home() {
       {/* VERTICAL TEXT */}
       <div className='vert-container'>
         <span className='vert-line'></span>
-        <p className='vert-text'>HOME</p>
+        <p className='vert-text'>TRAGWAND GmbH</p>
       </div>
 
       <div className='page-container'>
@@ -133,20 +133,27 @@ export default function Home() {
         {/* WELCOME SECTION */}
         <div className='welcome-section'>
           <div className='welcome-text-container'>
-            <h3>Welcome to TRAGWAND GmbH</h3>
+            <h3>Willkommen zu TRAGWAND GmbH</h3>
             <p>
-              TRAGWAND GmbH is an independent company in the construction
-              industry and real estate sector with an emphasis on the static,
-              architecture and renovation.
+              TRAGWAND GmbH ist ein Unternehmen in der Bau- und
+              Immobilienbranche, mit Schwerpunkt Projektentwicklung samt
+              Erbringung von Verwaltungs-, Planungs- und Ingenieurleistungen.
+              Wir sind ein motiviertes, innovatives und ehrgeiziges Team von
+              Bauingenieuren und Architekten, welches langjährigen Erfahrung in
+              der Baubranche vorweisen kann.
               <br></br>
               <br></br>
-              Our customers enjoy and benefit from our professional service and
-              offers, from project handling to total takeover and complete
-              project handling from a single source.
+              So haben wir bereits zahlreiche Bauvorhaben für Bauträger, private
+              Auftraggeber, Hausverwaltungen erfolgreich mehrere Projekte
+              geliefert und abgewickelt. Von den Projektabwicklungen bis der
+              Totalübernahme aus einer Hand. Wir bieten eine umfassende
+              Betreuung in allen Projektphasen und übernehmen das Planungs-,
+              Ausführungs- und Baumanagement ganzheitlich.
               <br></br>
               <br></br>
-              We take over integrated planning and construction management as
-              well as offer comprehensive support in all project phases.
+              Unsere einzigartige Expertise, Erfahrungen und Wissen macht uns
+              der zum richtigen Ansprechpartner für Sie, besonders dann wenn
+              beständige Qualität sowie herausragende Leistung gefordert sind.
             </p>
           </div>
 
@@ -155,64 +162,16 @@ export default function Home() {
         {/* SMALL TEAMS */}
         <div className='small-team-container'>
           <div className='filter'>
-            <h2>
-              Small team, <br></br>big ideas
-            </h2>
+            <h2>Kleines Team, große Ideen</h2>
 
             <Link className='button-link' to='/about'>
               <div className='button'>
-                <h4>About Us</h4>
+                <h4>Über uns</h4>
                 <img className='arrow-icon' src={iconArrow} />
               </div>
             </Link>
           </div>
         </div>
-        {/* FEATURED */}
-        {/* <div className='featured'>
-          <div className='featured-title-flex'>
-            <h3>Featured</h3>
-            <Link className='button-link' to='/portfolio'>
-              <div className='button'>
-                <h4>See All</h4>
-                <img className='arrow-icon' src={iconArrow} />
-              </div>
-            </Link>
-          </div>
-
-          <div className='featured-cards'>
-            <div className='card' id='card1'>
-              <div className='filter'>
-                <div className='text-container'>
-                  <h1>1</h1>
-                  <h5>Project Del Sol</h5>
-                  <Link className='button-link' to='/portfolio'>
-                    <h6>View All Projects</h6>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className='card' id='card2'>
-              <div className='filter'>
-                <h1>2</h1>
-                <h5>228B Tower</h5>
-                <Link className='button-link' to='/portfolio'>
-                  <h6>View All Projects</h6>
-                </Link>
-              </div>
-            </div>
-
-            <div className='card' id='card3'>
-              <div className='filter'>
-                <h1>3</h1>
-                <h5>Le Prototype</h5>
-                <Link className='button-link' to='/portfolio'>
-                  <h6>View All Projects</h6>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
       <Footer />
     </div>

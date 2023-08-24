@@ -20,53 +20,65 @@ export default function About() {
       {/*Vertical Text */}
       <div className='vert-container'>
         <span className='vert-line'></span>
-        <p className='vert-text'>ABOUT US</p>
+        <p className='vert-text'>ÜBER UNS</p>
       </div>
 
       {/* MAIN PAGE */}
       <div className='page-container'>
         <div className='hero-container'>
           <img src={HeroImage} alt='' />
-          <h1>About</h1>
+          <h1>Um</h1>
           <div className='text-container'>
             <div className='text-flex'>
               <span className='line'></span>
-              <h3>Your team of professionals</h3>
+              <h3>Ihr Team aus Profis</h3>
               <p>
-                We are an experienced team of experts who, thanks to many years
-                of experience and innovative solutions in construction, make
-                Austria (focus on Vienna and Lower Austria) a better place to
-                live and work.
+                Wir sind ein erfahrenes Expertenteam, das durch langjährige
+                Erfahrung und innovative Lösungsansätze im Bau, Österreich
+                (Schwerpunkt Wien und Niederösterreich) zu einem besseren
+                Wohn-/Arbeitsort macht. In Kooperation mit unserem beständigen
+                Netzwerk, bestehend aus ausgewählten Fachleuten, betreuen wir
+                mit Hingabe und Expertise die uns anvertrauten Bauprojekte.
+                Dadurch ist es uns auch möglich sowohl Klein- als auch
+                Großprojekte zu übernehmen.
               </p>
             </div>
           </div>
         </div>
 
-        <div className='heritage-container'>
+        <div className='heritage-container mobileview'>
           <div className='text-container'>
             <span className='line'></span>
-            <h3>
-              Our <br></br>Heritage
-            </h3>
+            <h3>Unser Erbe</h3>
             <p>
-              The TRAGWAND e.U. company was founded in June 2016 in the form of
-              a sole proprietorship. Over time, it grew into TRAGWAND GmbH, a
-              new business form.
+              Das erste Unternehmen TRAGWAND e.U. wurde im Juli 2016 in Form
+              eines Einzelunternehmens gegründet. Im Laufe der Zeit entwickelte
+              sich das Unternehmen zu einer neuen Rechtsform TRAGWAND GmbH.
               <br></br>
               <br></br>
-              Our aim is to be able to offer economical, but also sustainable
-              and innovative solutions for construction projects.
+              Unser Anspruch ist es, wirtschaftliche aber auch nachhaltige und
+              innovative Lösungen für Bauprojekte anbieten zu können.
               <br></br>
               <br></br>
-              Our small team of world-class professionals provides input on
-              every project.
+              Als erfahrenes Wiener Team in den Bereichen Statik, Architektur
+              und Sanierung bringen wir nicht nur das nötige Know-How mit,
+              sondern gleichzeitig qualitativ hochwertige Leistungen,
+              individuelle Betreuung und einen hohen Grad an Flexibilität.
+              <br />
+              Sofern gewünscht, begleiten wir Ihr Projekt von der Ideenfindung
+              und Planung bis hin zur schlüsselfertigen Übergabe. Alles aus
+              einer Hand – Standortbewertung, Beweissicherung vor Baubeginn,
+              Entwurf, Statik / statische Berechnungen / statische
+              Ausführungsplanungen, bauphysikalische Berechnungen,
+              Einreichpläne, innenarchitektonische Beratungen,
+              Tragwerkskonzepte, Bauschadensgutachten, usw.
             </p>
           </div>
 
           <img src={HeritageImage} alt='' />
         </div>
 
-        <div className='leaders-container'>
+        <div className='leaders-container mobile'>
           <h3>
             The<br></br>Leaders
           </h3>

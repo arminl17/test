@@ -60,6 +60,12 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .mobileview {
+    margin-bottom: -273px !important;
+  }
+  .mobile {
+    margin-top: 500px !important;
+  }
   .hero-container {
     position: relative;
     height: 50vw;
@@ -127,6 +133,13 @@
 }
 
 @media screen and (max-width: 700px) {
+  .mobile {
+    margin-top: 500px !important;
+  }
+
+  .mobileview {
+    margin-bottom: -273px !important;
+  }
   .hero-container {
     position: relative;
     height: 400px;
@@ -201,6 +214,13 @@
 }
 
 @media screen and (max-width: 500px) {
+  .mobile {
+    margin-top: 500px !important;
+  }
+
+  .mobileview {
+    margin-bottom: -273px !important;
+  }
   .hero-container {
     position: relative;
     height: 400px;
@@ -519,6 +539,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .mobile {
+    margin-top: 500px !important;
+  }
   .leaders-container {
     position: relative;
     display: flex;
@@ -597,6 +620,10 @@
 }
 
 @media screen and (max-width: 700px) {
+  .mobile {
+    margin-top: 500px !important;
+  }
+
   .leaders-container {
     position: relative;
     display: flex;
@@ -678,6 +705,10 @@
 }
 
 @media screen and (max-width: 500px) {
+  .mobile {
+    margin-top: 500px !important;
+  }
+
   .leaders-container {
     position: relative;
     display: flex;

@@ -14,22 +14,22 @@ export default function Architecture() {
       {/*Vertical Text */}
       <div className='vert-container'>
         <span className='vert-line'></span>
-        <p className='vert-text'>ARCHITECTURE</p>
+        <p className='vert-text'>ARCHITEKTUR</p>
       </div>
 
       {/* MAIN PAGE */}
       <div className='page-container'>
         <div className='hero-container'>
           <img src={HeroImage} alt='' />
-          <h1>About</h1>
+          <h1>Um</h1>
           <div className='text-container'>
             <div className='text-flex'>
               <span className='line'></span>
-              <h3>Architecture</h3>
+              <h3>Architektur</h3>
               <p>
-                The creation of attractive and urban living or working space,
-                combined with the competent planning, management and monitoring
-                of the project.
+                Die Schaffung von attraktivem und urbanem Lebens- bzw.
+                Arbeitsraum, kombiniert mit kompetenter Planung, Steuerung und
+                Überwachung des Projekts.
               </p>
             </div>
           </div>
@@ -38,15 +38,30 @@ export default function Architecture() {
         <div className='heritage-container mobileview'>
           <div className='text-container'>
             <span className='line'></span>
-            <h3>
-              Submission planning <br></br>
+            <h3
+              style={{
+                fontSize: "16px",
+                fontWeight: 700,
+              }}
+            >
+              Einreichplanung, Einreichplanung, Ausführungsplanung,
+              Leistungsvergabe, Begleitende Kontrolle, Baustellenkoordin
+              <br></br>
             </h3>
             <p>
-              A compilation and evaluation of relevant information about laws,
-              standards, properties and similar is essential even before ideas
-              of a project or before purchase of a real estate or a property.
-              Being esential, that kind of service is done by us with absolute
-              diligence.
+              Erstellen einen bewilligungsfähigen Einreichplan- Bauanzeigeplan
+              für Ihr Projekt, holen gegebenenfalls Beilagen ein und fungieren
+              als Vertretung in Behördenverfahren. Erstellen einen
+              bewilligungsfähigen Einreichplan- Bauanzeigeplan für Ihr Projekt,
+              holen gegebenenfalls Beilagen ein und fungieren als Vertretung in
+              Behördenverfahren. Generieren Polierpläne und Leitdetails für die
+              anschließende Ausführung. Stellen Leistungsverzeichnisse oder
+              Leistungs-beschreibungen auf, führen Vergabeverhandlungen durch
+              und kümmern uns um allfällige anfallende Tätigkeiten. ​ übernehmen
+              die Funktion als Bauherrnvertretung oder Projektleiter im Sinne
+              des Bauarbeiten- koordinationsgesetzes und leisten die
+              Planungskoordination fungieren als Bauberatung, Bauüberwachung und
+              kümmern uns um die Organisation der Bauabwicklung.
               <br></br>
               <br></br>
             </p>
@@ -60,20 +75,25 @@ export default function Architecture() {
           <div className='text-container'>
             <span className='line'></span>
             <h3>
-              We do <br></br>
+              Wir tun <br></br>
             </h3>
             <p>
-              <li>Family houses</li> ​<li>Apartment buildings</li> ​
-              <li>Modifications and additions</li> ​<li> Loft conversions</li> ​
-              <li>Residental and office buildings</li> ​
-              <li>Commercial and industrial buildings</li> ​
-              <li>Special constructions</li> ​<li>Catering trade</li> ​
-              <li>Feasibility studies</li> ​<li>Competitions</li> ​
-              <li>Basic determination</li> ​<li>Preliminary draft</li> ​
-              <li>Draft</li> ​​
-              <li>Visualizations​</li> ​​
-              <li> Digitization of the architectural plans</li> ​​
-              <li>Open space design</li> ​​
+              <li>Einfamilienhäuser</li>
+              <li>Mehrfamilienhäuser</li>
+              <li>Um- und Zubauten</li>
+              <li>Dachgeschoßausbauten</li>
+              <li>Wohn- und Bürobauten</li>
+              <li>Gewerbe- und Industriebauten</li>
+              <li>Sonderbauten</li>
+              <li>Gastronomie</li>
+              <li>Machbarkeitsstudien</li>
+              <li>Wettbewerbe</li>
+              <li>Grundlagenermittlung</li>
+              <li>Vorentwurf</li>
+              <li>Entwurf</li>
+              <li>Visualisierungen</li>
+              <li>Digitalisierung der architektonischen Pläne</li>
+              <li>Freiraumgestaltung</li>
               <br></br>
               <br></br>
             </p>

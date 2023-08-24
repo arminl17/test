@@ -43,54 +43,54 @@ export default function Navigation() {
                   to='/static'
                   onClick={closeMobileMenu}
                 >
-                  Static
+                  Statik
                 </Link>
                 <Link
                   className='nav-link'
                   to='/architecture'
                   onClick={closeMobileMenu}
                 >
-                  Architecture
+                  Architektur
                 </Link>
                 <Link
                   className='nav-link'
                   to='/about'
                   onClick={closeMobileMenu}
                 >
-                  About Us
+                  Über uns
                 </Link>
                 <Link
                   className='nav-link'
                   to='/contact'
                   onClick={closeMobileMenu}
                 >
-                  Contact
+                  Kontakt
                 </Link>
                 <Link
                   className='nav-link'
                   to='/references'
                   onClick={closeMobileMenu}
                 >
-                  References
+                  Referenzen
                 </Link>
               </div>
             ) : null}
 
             <div className='navlinks'>
               <Link className='nav-link' to='/static'>
-                Static
+                Statik
               </Link>
               <Link className='nav-link' to='/architecture'>
-                Architecture
+                Architektur
               </Link>
               <Link className='nav-link' to='/about'>
-                About Us
+                Über uns
               </Link>
               <Link className='nav-link' to='/contact'>
-                Contact
+                Kontakt
               </Link>
               <Link className='nav-link' to='/references'>
-                References
+                Referenzen
               </Link>
             </div>
           </div>
